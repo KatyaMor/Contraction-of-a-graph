@@ -1,0 +1,18 @@
+﻿  builder.cpp
+h:\c++\fourth_lab\stack\stack.h(14): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  h:\c++\fourth_lab\stack\stack.h(14): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<T>::Node"
+  h:\c++\fourth_lab\stack\stack.h(47): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<T>"
+h:\c++\fourth_lab\stack\stack.h(24): error C2365: Stack<T>::size: переопределение; предыдущим определением было "данные-член"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<T>::size"
+h:\c++\fourth_lab\stack\stack.h(100): error C2063: Stack<T>::size: не является функцией
+h:\c++\fourth_lab\stack\stack.h(100): error C2350: "Stack<T>::size" не является статическим членом
+  h:\c++\fourth_lab\stack\stack.h(97): note:  см. объявление "Stack<T>::size"
+h:\c++\fourth_lab\stack\stack.h(24): error C2207: "Stack<T>::size": член шаблона класса не может получать тип функции
+  h:\c++\fourth_lab\graph\graph.h(24): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<Vertex>"
+h:\c++\fourth_lab\stack\stack.h(24): error C2365: Stack<Vertex>::size: переопределение; предыдущим определением было "данные-член"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<Vertex>::size"
+h:\c++\fourth_lab\graph_2\graph_2.h(22): error C2061: синтаксическая ошибка: идентификатор "ostream"
+h:\c++\fourth_lab\graph_2\graph_2.h(23): error C2556: std::string Graph::InfoIfIsTrivial(void) const: перегруженная функция отличается от "void Graph::InfoIfIsTrivial(void) const" только возвращаемым типом
+  h:\c++\fourth_lab\graph_2\graph_2.h(22): note:  см. объявление "Graph::InfoIfIsTrivial"
+h:\c++\fourth_lab\graph_2\graph_2.h(23): error C2371: Graph::InfoIfIsTrivial: переопределение; различные базовые типы
+  h:\c++\fourth_lab\graph_2\graph_2.h(22): note:  см. объявление "Graph::InfoIfIsTrivial"

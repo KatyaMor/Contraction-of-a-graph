@@ -1,0 +1,25 @@
+﻿  graph.cpp
+h:\c++\fourth_lab\stack\stack.h(14): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  h:\c++\fourth_lab\stack\stack.h(14): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<T>::Node"
+  h:\c++\fourth_lab\stack\stack.h(47): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<T>"
+h:\c++\fourth_lab\stack\stack.h(24): error C2365: Stack<T>::size: переопределение; предыдущим определением было "данные-член"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<T>::size"
+h:\c++\fourth_lab\stack\stack.h(100): error C2063: Stack<T>::size: не является функцией
+h:\c++\fourth_lab\stack\stack.h(100): error C2350: "Stack<T>::size" не является статическим членом
+  h:\c++\fourth_lab\stack\stack.h(97): note:  см. объявление "Stack<T>::size"
+h:\c++\fourth_lab\stack\stack.h(24): error C2207: "Stack<T>::size": член шаблона класса не может получать тип функции
+  h:\c++\fourth_lab\graph\graph.h(24): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Stack<Vertex>"
+h:\c++\fourth_lab\stack\stack.h(24): error C2365: Stack<Vertex>::size: переопределение; предыдущим определением было "данные-член"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<Vertex>::size"
+h:\c++\fourth_lab\graph\graph.cpp(16): error C2248: Stack<Vertex>::size: невозможно обратиться к protected член, объявленному в классе "Stack<Vertex>"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<Vertex>::size"
+  h:\c++\fourth_lab\graph\graph.h(24): note:  см. объявление "Stack<Vertex>"
+h:\c++\fourth_lab\graph\graph.cpp(16): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
+h:\c++\fourth_lab\graph\graph.cpp(41): error C2248: Stack<Vertex>::size: невозможно обратиться к protected член, объявленному в классе "Stack<Vertex>"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<Vertex>::size"
+  h:\c++\fourth_lab\graph\graph.h(24): note:  см. объявление "Stack<Vertex>"
+h:\c++\fourth_lab\graph\graph.cpp(41): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
+h:\c++\fourth_lab\graph\graph.cpp(46): error C2248: Stack<Vertex>::size: невозможно обратиться к protected член, объявленному в классе "Stack<Vertex>"
+  h:\c++\fourth_lab\stack\stack.h(16): note:  см. объявление "Stack<Vertex>::size"
+  h:\c++\fourth_lab\graph\graph.h(24): note:  см. объявление "Stack<Vertex>"
+h:\c++\fourth_lab\graph\graph.cpp(46): error C2064: результатом вычисления фрагмента не является функция, принимающая 0 аргументов
